@@ -1,0 +1,88 @@
+.wrapper{
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    max-width: 450px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  .wrapper h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #332902;
+    font-weight: bold;
+  }
+  .wrapper .query{
+    text-align: center;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #4070F4;
+  }
+  .wrapper .border{
+    width: 90px;
+  height: 3px;
+  background: #1B242F;
+  margin: 0px auto;
+  }
+  .wrapper form{
+    margin-top: 50px;
+  }
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 2px solid #e0e0e0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: white;
+    color: #332902;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    position: relative;
+    left:230%;
+    transform: translate(-50%);
+    transition: .5s;
+  }
+  .wrapper .btn input[type="submit"]:hover{
+    background: #04c2c9;
+    border-color: #04c2c9;
+    color: white;
+    transition: .5s;
+  }
+  #error_message{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  #contact{
+    position: relative;
+    top:-50px;
+  }
